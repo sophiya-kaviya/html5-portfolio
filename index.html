@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Personal Portfolio Website">
+<meta name="keywords" content="Portfolio, Student, Web Developer">
+<meta name="author" content="Your Name">
+
+<title>Personal Portfolio</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#0077cc;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav ul{
+    list-style:none;
+    padding:0;
+}
+
+nav ul li{
+    display:inline;
+    margin:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+main{
+    padding:20px;
+}
+
+section, article, aside{
+    background:white;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:8px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+input, textarea{
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+button{
+    padding:10px;
+    background:#0077cc;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hello! I am a student interested in Web Development and Software Development.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <article>
+        <h3>Portfolio Website</h3>
+        <p>Created using Semantic HTML5 and Accessibility Standards.</p>
+    </article>
+
+    <article>
+        <h3>Student Record System</h3>
+        <p>A simple student management application.</p>
+    </article>
+</section>
+
+<aside>
+    <h2>Additional Information</h2>
+    <p>Currently looking for internship opportunities.</p>
+</aside>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form aria-label="Contact Form">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 My Portfolio Website</p>
+</footer>
+
+</body>
+</html>
